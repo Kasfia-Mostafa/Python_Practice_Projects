@@ -4,8 +4,6 @@ current_steps = int(input("How may steps you have taken today?\n"))
 
 remaining = daily_goal - current_steps
 if remaining > 0:
-  print(f"You need {remaining} more steps to reach your goal!")
+    print(f"You need {remaining} more steps to reach your goal!")
 else:
-  print(f"Congratulaion! You've exceeded your goal by {-remaining} steps!")
-
-  
+    print(f"Congratulaion! You've exceeded your goal by {-remaining} steps!")

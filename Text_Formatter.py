@@ -7,11 +7,11 @@ print("4.Sentence case")
 
 choice = input("Choose a format (1-4):")
 
-if choice == '1':
-  print(text.upper())
-elif choice == '2':
-  print(text.lower())
-elif choice == '3':
-  print(text.title())
-elif choice == '4':
-  print(text.capitalize())
+if choice == "1":
+    print(text.upper())
+elif choice == "2":
+    print(text.lower())
+elif choice == "3":
+    print(text.title())
+elif choice == "4":
+    print(text.capitalize())
